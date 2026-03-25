@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="banner.svg" alt="Pushing Pixels · Full-Stack Developer · Vienna, Austria" width="100%" />
+<a href="https://pushingpixels.at"><img src="banner.svg" alt="Pushing Pixels · Full-Stack Developer · Vienna, Austria" width="100%" /></a>
 
 # Daniel Kurdoghlian
 
-*Pushing Pixels*
-
 **Full-Stack Developer · Vienna, Austria**
 
-<img src="https://pushingpixels.at/images/working_at_the_desk.png" width="200" alt="Daniel Kurdoghlian" />
+<a href="https://pushingpixels.at"><img src="https://pushingpixels.at/images/working_at_the_desk.png" width="200" alt="Daniel Kurdoghlian" /></a>
 
 I work with technical founders, startups, and established product teams as a full-stack developer with a strong eye for design.  
 I build solid, maintainable interfaces and advise on scalable architecture and development best practices.
@@ -67,9 +65,9 @@ I build reliable, scalable web applications for startups and ambitious brands. I
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-**Also experienced with:** Rust · PHP · Flask · React · Angular · Bash · WooCommerce · *Git and many more...*
+**Also experienced with:** Rust · PHP · Flask · React · Angular · Bash · WooCommerce · _Git and many more..._
 
-*Currently building with Nuxt 4, Django 5, and PostgreSQL 17.*
+_Currently building with Nuxt 4, Django 5, and PostgreSQL 17._
 
 ---
 
@@ -93,7 +91,6 @@ I build reliable, scalable web applications for startups and ambitious brands. I
 
 **Let's build something exceptional.**
 
-[![Get In Touch](https://img.shields.io/badge/Get_In_Touch-000000?style=for-the-badge&logo=mail.ru&logoColor=white)](https://pushingpixels.at/contact)
+<a href="https://pushingpixels.at/contact"><img src="https://img.shields.io/badge/Get_In_Touch-000000?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Get In Touch" height="40" /></a>
 
 </div>
-
