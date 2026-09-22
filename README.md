@@ -3,7 +3,7 @@
 <a href="https://pushingpixels.at">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg" />
-    <img src="banner-light.svg" alt="Pushing Pixels" width="100%" />
+    <img src="banner-light.svg" alt="Pushing Pixels" width="870" height="120" />
   </picture>
 </a>
 
