@@ -2,8 +2,8 @@
 
 <a href="https://pushingpixels.at">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://pushingpixels.at/brand/lockup-on-dark.svg" />
-    <img src="https://pushingpixels.at/brand/lockup-on-light.svg" alt="Pushing Pixels" width="320" />
+    <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg" />
+    <img src="banner-light.svg" alt="Pushing Pixels" width="100%" />
   </picture>
 </a>
 
