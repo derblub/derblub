@@ -1,48 +1,67 @@
 <div align="center">
 
-<a href="https://pushingpixels.at"><img src="banner.svg" alt="Pushing Pixels · Full-Stack Developer · Vienna, Austria" width="100%" /></a>
+<a href="https://pushingpixels.at">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://pushingpixels.at/brand/lockup-on-dark.svg" />
+    <img src="https://pushingpixels.at/brand/lockup-on-light.svg" alt="Pushing Pixels" width="320" />
+  </picture>
+</a>
 
 # Daniel Kurdoghlian
 
-**Full-Stack Developer · Vienna, Austria**
+**Full-stack developer and consultant · Vienna, Austria**
 
-<a href="https://pushingpixels.at"><img src="https://pushingpixels.at/images/working_at_the_desk.png" width="200" alt="Daniel Kurdoghlian" /></a>
+I work with technical founders, startups and established product teams.
+I build solid, maintainable interfaces with a strong eye for design and advise on scalable architecture and development practice.
 
-I work with technical founders, startups, and established product teams as a full-stack developer with a strong eye for design.  
-I build solid, maintainable interfaces and advise on scalable architecture and development best practices.
-
-[![Website](https://img.shields.io/badge/pushingpixels.at-000000?style=for-the-badge&logo=none&logoColor=white)](https://pushingpixels.at)
-[![Twitter](https://img.shields.io/badge/@derblub-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/derblub)
+[![Website](https://img.shields.io/badge/pushingpixels.at-000000?style=for-the-badge)](https://pushingpixels.at)
 [![Bluesky](https://img.shields.io/badge/derblub.com-000000?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/derblub.com)
 
 </div>
 
 ---
 
-### What I Do
-
-I build reliable, scalable web applications for startups and ambitious brands. I handle everything from backend architecture to pixel-perfect UI - delivering agency-grade technical work without the overhead.
+### What I do
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>🚀 Web Applications</h4>
-      <p>Custom SPAs, SSR apps, and PWAs built with Nuxt, Vue.js, and Django. Native-level experience, enterprise-grade security.</p>
+      <h4><a href="https://pushingpixels.at/creates/web-apps">Web applications</a></h4>
+      <p>Custom web applications with Django and Nuxt: architecture, APIs, testing and deployment.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>⚙️ DevOps & Infrastructure</h4>
-      <p>CI/CD pipelines, containerized deployments, and scalable cloud architectures on AWS and DigitalOcean.</p>
+      <h4><a href="https://pushingpixels.at/creates/devops-and-infra">DevOps and infrastructure</a></h4>
+      <p>CI/CD pipelines, containers and cloud infrastructure that make deployments repeatable and outages visible.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>🧩 WordPress Solutions</h4>
-      <p>Bespoke Gutenberg blocks, headless/decoupled architectures, and deep API integrations - no bloated themes.</p>
+      <h4><a href="https://pushingpixels.at/creates/wordpress">WordPress</a></h4>
+      <p>Custom Gutenberg builds and headless setups that marketing teams can run themselves.</p>
     </td>
   </tr>
 </table>
 
+### Fixed-price audits
+
+Three working days, €2,900 plus VAT, a written plan with the effort for each step.
+
+- **[Django upgrade audit](https://pushingpixels.at/creates/django-upgrades)**: Django 4.2 has had no security updates since April 2026. The audit shows what the upgrade to 5.2 involves before anything changes.
+- **[Accessibility audit](https://pushingpixels.at/creates/accessibility-audit)**: for web apps, booking flows and shops under the European Accessibility Act. Tested with keyboard, screen reader and automated checks, fixed in the code.
+
 ---
 
-### Tech Stack
+### Case studies
+
+14 case studies with code and interactive demos at [pushingpixels.at/portfolio](https://pushingpixels.at/portfolio), for example:
+
+- [Zero-downtime schema migrations](https://pushingpixels.at/portfolio/zero-downtime-migrations): a four-million-row table changed during peak traffic.
+- [Automated property exposés](https://pushingpixels.at/portfolio/pdf-generation): a 45-minute InDesign job per listing became a three-second generator.
+- [Three payment gateways, one checkout](https://pushingpixels.at/portfolio/payment-orchestration): synchronous, redirect and webhook flows behind a single pipeline.
+
+Latest article: [Django 4.2 is end of life: what now?](https://pushingpixels.at/articles/django-4-2-end-of-life)
+
+---
+
+### Tech stack
 
 **Core**
 
@@ -52,45 +71,26 @@ I build reliable, scalable web applications for startups and ambitious brands. I
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**Infrastructure & Tooling**
+**Infrastructure and tooling**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-**Also experienced with:** Rust · PHP · Flask · React · Angular · Bash · WooCommerce · _Git and many more..._
-
-_Currently building with Nuxt 4, Django 5, and PostgreSQL 17._
+**Also:** Rust · PHP · Flask · React · Angular · Bash · WooCommerce
 
 ---
 
 <div align="center">
 
-**15+ Years Experience** · **30+ Happy Clients** · **50+ Projects Delivered**
+**15+ years** · **30+ clients** · **50+ projects**
 
-</div>
-
----
-
-### How I've Helped
-
-- **Partnered with tech startups** to architect scalable platforms from scratch, ensuring their codebases grow alongside their user base.
-- **Helped founders focus on their business** by taking complete ownership of the technical execution - eliminating the need to hire multiple specialized developers.
-- **Helped early-stage companies get to market faster** by developing secure, well-built MVPs on tight timelines without cutting corners.
-
----
-
-<div align="center">
-
-**Let's build something exceptional.**
-
-<a href="https://pushingpixels.at/contact"><img src="https://img.shields.io/badge/Get_In_Touch-000000?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Get In Touch" height="40" /></a>
+<a href="https://pushingpixels.at/contact"><img src="https://img.shields.io/badge/Get_in_touch-000000?style=for-the-badge" alt="Get in touch" height="40" /></a>
 
 </div>
