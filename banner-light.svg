@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-200.00 0 870.00 120" role="img" aria-label="Pushing Pixels">
-  <!-- Mark from public/brand/glyph-on-*.svg, letters from banner.svg.
-       Everything rests in its final state; the animation only plays
-       before it, so the banner shows wherever animation never runs. -->
+  <!-- The mark: the pushed pixel starts
+       neutral in its slot of the full grid, glides out to the right and
+       takes on the accent at its place. Resting state = the regular mark. -->
   <defs>
     <linearGradient id="push" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d9488"/>
@@ -9,6 +9,14 @@
     </linearGradient>
   </defs>
   <style>
+    .appear { animation: fade-in 0.8s ease-out both; }
+    .pushed { animation: glide 1s ease-in-out 1.3s both; }
+    .neutral { opacity: 0; animation: tint 0.6s ease-out 2.3s both; }
+    /* Hidden until the tint starts, so no accent edge shows around the
+       neutral pixel while it glides */
+    .accent { animation: reveal 0.01s steps(1) 2.3s both; }
+    .ghost { animation: fade-in 0.8s ease-out 1.8s both; }
+
     .letter {
       fill: none;
       stroke: rgba(29, 29, 32, 0.75);
@@ -19,53 +27,62 @@
       animation: draw 12s ease-in-out both;
     }
 
-    .letter:nth-child(1) { stroke-dasharray: 350.57; --len: 350.57; animation-delay: 1.00s; }
-    .letter:nth-child(2) { stroke-dasharray: 433.37; --len: 433.37; animation-delay: 1.15s; }
-    .letter:nth-child(3) { stroke-dasharray: 383.67; --len: 383.67; animation-delay: 1.30s; }
-    .letter:nth-child(4) { stroke-dasharray: 455.14; --len: 455.14; animation-delay: 1.45s; }
-    .letter:nth-child(5) { stroke-dasharray: 225.02; --len: 225.02; animation-delay: 1.60s; }
-    .letter:nth-child(6) { stroke-dasharray: 519.67; --len: 519.67; animation-delay: 1.75s; }
-    .letter:nth-child(7) { stroke-dasharray: 440.31; --len: 440.31; animation-delay: 1.90s; }
-    .letter:nth-child(8) { stroke-dasharray: 350.57; --len: 350.57; animation-delay: 2.20s; }
-    .letter:nth-child(9) { stroke-dasharray: 225.02; --len: 225.02; animation-delay: 2.35s; }
-    .letter:nth-child(10) { stroke-dasharray: 405.68; --len: 405.68; animation-delay: 2.50s; }
-    .letter:nth-child(11) { stroke-dasharray: 372.91; --len: 372.91; animation-delay: 2.65s; }
-    .letter:nth-child(12) { stroke-dasharray: 275.43; --len: 275.43; animation-delay: 2.80s; }
-    .letter:nth-child(13) { stroke-dasharray: 383.67; --len: 383.67; animation-delay: 2.95s; }
+    .letter:nth-child(1) { stroke-dasharray: 350.57; --len: 350.57; animation-delay: 3.00s; }
+    .letter:nth-child(2) { stroke-dasharray: 433.37; --len: 433.37; animation-delay: 3.15s; }
+    .letter:nth-child(3) { stroke-dasharray: 383.67; --len: 383.67; animation-delay: 3.30s; }
+    .letter:nth-child(4) { stroke-dasharray: 455.14; --len: 455.14; animation-delay: 3.45s; }
+    .letter:nth-child(5) { stroke-dasharray: 225.02; --len: 225.02; animation-delay: 3.60s; }
+    .letter:nth-child(6) { stroke-dasharray: 519.67; --len: 519.67; animation-delay: 3.75s; }
+    .letter:nth-child(7) { stroke-dasharray: 440.31; --len: 440.31; animation-delay: 3.90s; }
+    .letter:nth-child(8) { stroke-dasharray: 350.57; --len: 350.57; animation-delay: 4.20s; }
+    .letter:nth-child(9) { stroke-dasharray: 225.02; --len: 225.02; animation-delay: 4.35s; }
+    .letter:nth-child(10) { stroke-dasharray: 405.68; --len: 405.68; animation-delay: 4.50s; }
+    .letter:nth-child(11) { stroke-dasharray: 372.91; --len: 372.91; animation-delay: 4.65s; }
+    .letter:nth-child(12) { stroke-dasharray: 275.43; --len: 275.43; animation-delay: 4.80s; }
+    .letter:nth-child(13) { stroke-dasharray: 383.67; --len: 383.67; animation-delay: 4.95s; }
 
-    .grid { animation: fade 1.6s ease-out both; }
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
 
-    /* The pushed pixel arrives from outside the grid, never through it */
-    .pushed { animation: arrive 1.8s cubic-bezier(.22,1,.36,1) 2.4s both; }
+    /* 18 units: from the slot (x 25) to the pushed position (x 43) */
+    @keyframes glide {
+      from { transform: translateX(-18px); }
+      to { transform: translateX(0); }
+    }
+
+    @keyframes reveal {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes tint {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
 
     @keyframes draw {
       from { stroke-dashoffset: var(--len); }
       to { stroke-dashoffset: 0; }
     }
 
-    @keyframes fade {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    @keyframes arrive {
-      from { opacity: 0; transform: translateX(10px); }
-      to { opacity: 1; transform: translateX(0); }
-    }
-
     @media (prefers-reduced-motion: reduce) {
-      .letter, .grid, .pushed { animation: none; }
+      .appear, .pushed, .neutral, .accent, .ghost, .letter { animation: none; }
     }
   </style>
 
   <g transform="translate(-216.93, -48.48) scale(3.0303)">
-    <g class="grid">
+    <rect class="ghost" x="26" y="17" width="13" height="13" rx="2" fill="none" stroke="#1d1d20" stroke-width="2" stroke-dasharray="3 3" stroke-opacity=".45"/>
+    <g class="appear">
       <rect x="7" y="16" width="15" height="15" rx="3" fill="#1d1d20"/>
       <rect x="7" y="34" width="15" height="15" rx="3" fill="#1d1d20"/>
       <rect x="25" y="34" width="15" height="15" rx="3" fill="#1d1d20"/>
-      <rect x="26" y="17" width="13" height="13" rx="2" fill="none" stroke="#1d1d20" stroke-width="2" stroke-dasharray="3 3" stroke-opacity=".45"/>
+      <g class="pushed">
+        <rect class="accent" x="43" y="16" width="15" height="15" rx="3" fill="url(#push)"/>
+        <rect class="neutral" x="43" y="16" width="15" height="15" rx="3" fill="#1d1d20"/>
+      </g>
     </g>
-    <rect class="pushed" x="43" y="16" width="15" height="15" rx="3" fill="url(#push)"/>
   </g>
 
   <g transform="translate(285, -285) rotate(90, 50, 335)">
