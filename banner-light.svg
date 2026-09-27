@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-200.00 0 870.00 120" role="img" aria-label="Pushing Pixels">
   <!-- The mark: the pushed pixel starts
-       neutral in its slot of the full grid, glides out to the right and
-       takes on the accent at its place. Resting state = the regular mark. -->
+       neutral in its slot of the full grid and crossfades to the accent as
+       it starts to glide out to the right. Resting state = the regular mark. -->
   <defs>
     <linearGradient id="push" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d9488"/>
@@ -11,10 +11,10 @@
   <style>
     .appear { animation: fade-in 0.8s ease-out both; }
     .pushed { animation: glide 1s ease-in-out 1.3s both; }
-    .neutral { opacity: 0; animation: tint 0.6s ease-out 2.3s both; }
-    /* Hidden until the tint starts, so no accent edge shows around the
-       neutral pixel while it glides */
-    .accent { animation: reveal 0.01s steps(1) 2.3s both; }
+    .neutral { opacity: 0; animation: tint 0.5s ease-in-out 1.3s both; }
+    /* Hidden until the glide starts, opaque from then on under the fading
+       neutral pixel, so the crossfade never shows the ground */
+    .accent { animation: reveal 0.01s steps(1) 1.3s both; }
     .ghost { animation: fade-in 0.8s ease-out 1.8s both; }
 
     .letter {
