@@ -42,10 +42,20 @@ I build solid, maintainable interfaces with a strong eye for design and advise o
 
 ### Fixed-price audits
 
-Three working days, €2,900 plus VAT, a written plan with the effort for each step.
+Three working days, €2,900, a written plan with the effort for each step.
 
 - **[Django upgrade audit](https://pushingpixels.at/creates/django-upgrades)**: Django 4.2 has had no security updates since April 2026. The audit shows what the upgrade to 5.2 involves before anything changes.
 - **[Accessibility audit](https://pushingpixels.at/creates/accessibility-audit)**: for web apps, booking flows and shops under the European Accessibility Act. Tested with keyboard, screen reader and automated checks, fixed in the code.
+
+---
+
+### Open source
+
+**[django-upgrade-report](https://github.com/derblub/django-upgrade-report)**: which of your dependencies block a Django upgrade, and in which order to upgrade them. It reads your lockfile, asks PyPI what every Django package declares and prints the plan. Also runs in CI as a GitHub Action.
+
+```console
+uvx django-upgrade-report
+```
 
 ---
 
@@ -57,7 +67,7 @@ Three working days, €2,900 plus VAT, a written plan with the effort for each s
 - [Automated property exposés](https://pushingpixels.at/portfolio/pdf-generation): a 45-minute InDesign job per listing became a three-second generator.
 - [Three payment gateways, one checkout](https://pushingpixels.at/portfolio/payment-orchestration): synchronous, redirect and webhook flows behind a single pipeline.
 
-Latest article: [Django 4.2 is end of life: what now?](https://pushingpixels.at/articles/django-4-2-end-of-life)
+Articles: [Which packages block my Django upgrade?](https://pushingpixels.at/articles/django-upgrade-dependencies) · [Django 4.2 is end of life: what now?](https://pushingpixels.at/articles/django-4-2-end-of-life)
 
 ---
 
