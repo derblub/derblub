@@ -22,6 +22,18 @@ I build solid, maintainable interfaces with a strong eye for design and advise o
 
 ---
 
+### Open source
+
+**[django-upgrade-report](https://github.com/derblub/django-upgrade-report)**: which of your dependencies block a Django upgrade, and in which order to upgrade them. It reads your lockfile, asks PyPI what every Django package declares and prints the plan. Also runs in CI as a GitHub Action.
+
+```console
+uvx django-upgrade-report
+```
+
+Most of my client work lives in private repositories on my own GitLab, so the contribution graph here shows only the public part.
+
+---
+
 ### What I do
 
 <table>
@@ -41,26 +53,7 @@ I build solid, maintainable interfaces with a strong eye for design and advise o
   </tr>
 </table>
 
-### Fixed-price audits
-
-Three working days, €2,900, a written plan with the effort for each step.
-
-- **[Django upgrade audit](https://pushingpixels.at/creates/django-upgrades)**: Django 4.2 has had no security updates since April 2026. The audit shows what the upgrade to 5.2 involves before anything changes.
-- **[Accessibility audit](https://pushingpixels.at/creates/accessibility-audit)**: for web apps, booking flows and shops under the European Accessibility Act. Tested with keyboard, screen reader and automated checks, fixed in the code.
-
-### Funding in Vienna
-
-**[Vienna digitalisation funding](https://pushingpixels.at/creates/digitalisation-funding)**: the Vienna Business Agency covers 50 % of a digitalisation project, up to €50,000. I write the technical plan and the quote for the application.
-
----
-
-### Open source
-
-**[django-upgrade-report](https://github.com/derblub/django-upgrade-report)**: which of your dependencies block a Django upgrade, and in which order to upgrade them. It reads your lockfile, asks PyPI what every Django package declares and prints the plan. Also runs in CI as a GitHub Action.
-
-```console
-uvx django-upgrade-report
-```
+Also fixed-price [Django upgrade](https://pushingpixels.at/creates/django-upgrades) and [accessibility](https://pushingpixels.at/creates/accessibility-audit) audits, and the technical plan for [Vienna's digitalisation funding](https://pushingpixels.at/creates/digitalisation-funding).
 
 ---
 
@@ -78,27 +71,10 @@ Articles: [Which packages block my Django upgrade?](https://pushingpixels.at/art
 
 ### Tech stack
 
-**Core**
-
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxt.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Infrastructure and tooling**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-web-services&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000)
-![GitLab](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
-**Also:** Rust · PHP · Flask · React · Angular · Bash · WooCommerce
+- **Backend:** Django and Python on PostgreSQL, from [schema migrations under load](https://pushingpixels.at/portfolio/zero-downtime-migrations) to [payment pipelines](https://pushingpixels.at/portfolio/payment-orchestration).
+- **Frontend:** Nuxt and Vue with TypeScript and Tailwind. [pushingpixels.at](https://pushingpixels.at) is built with them.
+- **Infrastructure:** Docker, GitLab CI, AWS and Linux servers, see [DevOps and infrastructure](https://pushingpixels.at/creates/devops-and-infra).
+- **Also:** WordPress and WooCommerce, Rust, PHP, Flask, React, Angular, Bash, Figma.
 
 ---
 
