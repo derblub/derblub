@@ -48,6 +48,10 @@ Three working days, €2,900, a written plan with the effort for each step.
 - **[Django upgrade audit](https://pushingpixels.at/creates/django-upgrades)**: Django 4.2 has had no security updates since April 2026. The audit shows what the upgrade to 5.2 involves before anything changes.
 - **[Accessibility audit](https://pushingpixels.at/creates/accessibility-audit)**: for web apps, booking flows and shops under the European Accessibility Act. Tested with keyboard, screen reader and automated checks, fixed in the code.
 
+### Funding in Vienna
+
+**[Vienna digitalisation funding](https://pushingpixels.at/creates/digitalisation-funding)**: the Vienna Business Agency covers 50 % of a digitalisation project, up to €50,000. I write the technical plan and the quote for the application.
+
 ---
 
 ### Open source
