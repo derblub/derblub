@@ -30,6 +30,14 @@ I build solid, maintainable interfaces with a strong eye for design and advise o
 uvx django-upgrade-report
 ```
 
+**[axe-routes](https://github.com/derblub/axe-routes)**: checks every route of a site with axe-core, from the sitemap, at desktop and phone size. Runs as a GitHub Action or from the command line and fails the build on a WCAG violation.
+
+**[barrierefreiheitserklaerung-at](https://github.com/derblub/barrierefreiheitserklaerung-at)**: a template (in German) for the accessibility information the Austrian Barrierefreiheitsgesetz requires from online shops and booking flows, with a filled-in example.
+
+Contributions to other projects:
+
+- [nuxt/ui #7151](https://github.com/nuxt/ui/pull/7151): screen readers now get the pagination labels in the user's language (merged).
+
 Most of my client work lives in private repositories on my own GitLab, so the contribution graph here shows only the public part.
 
 ---
@@ -51,9 +59,21 @@ Most of my client work lives in private repositories on my own GitLab, so the co
       <p>Custom Gutenberg builds and headless setups that marketing teams can run themselves.</p>
     </td>
   </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h4><a href="https://pushingpixels.at/creates/django-upgrades">Django upgrade audit</a></h4>
+      <p>Fixed price: which dependencies block your upgrade, in which order to move, and what it will cost.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://pushingpixels.at/creates/accessibility-audit">Accessibility audit</a></h4>
+      <p>Fixed price: WCAG with automated checks, keyboard and screen reader testing, and a prioritised list of fixes.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://pushingpixels.at/creates/digitalisation-funding">Digitalisation funding</a></h4>
+      <p>The technical plan for Vienna's digitalisation funding.</p>
+    </td>
+  </tr>
 </table>
-
-Also fixed-price [Django upgrade](https://pushingpixels.at/creates/django-upgrades) and [accessibility](https://pushingpixels.at/creates/accessibility-audit) audits, and the technical plan for [Vienna's digitalisation funding](https://pushingpixels.at/creates/digitalisation-funding).
 
 ---
 
