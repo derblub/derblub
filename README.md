@@ -66,7 +66,7 @@ Most of my client work lives in private repositories on my own GitLab, so the co
     </td>
     <td width="33%" valign="top">
       <h4><a href="https://pushingpixels.at/creates/accessibility-audit">Accessibility audit</a></h4>
-      <p>Fixed price: WCAG with automated checks, keyboard and screen reader testing, and a prioritised list of fixes.</p>
+      <p>Fixed price: WCAG 2.2 AA with automated checks, keyboard and screen reader testing, and a prioritised list of fixes.</p>
     </td>
     <td width="33%" valign="top">
       <h4><a href="https://pushingpixels.at/creates/digitalisation-funding">Digitalisation funding</a></h4>
