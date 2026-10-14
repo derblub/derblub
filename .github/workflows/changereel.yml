@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0 # the base commit has to be there
-      - uses: derblub/changereel@v0.7.0
+      - uses: derblub/changereel@v0
         with:
           # The profile is a README, not a site: GitHub renders it to HTML, next to the banners
           build: >-
