@@ -9,10 +9,10 @@
 
 # Daniel Kurdoghlian
 
-**Full-stack developer and consultant · Vienna, Austria**
+**Developer and consultant · Vienna, Austria**
 
-I work with technical founders, startups and established product teams.
-I build solid, maintainable interfaces with a strong eye for design and advise on scalable architecture and development practice.
+I test with your own examples whether AI can take over a task in your business, and whether it pays off. Then I build the solution myself.
+Consulting and development stay with one person, so nothing gets lost in a handover. I also build web applications for founders and product teams.
 
 [![Website](https://img.shields.io/badge/pushingpixels.at-000000?style=for-the-badge)](https://pushingpixels.at)
 [![Bluesky](https://img.shields.io/badge/derblub.com-000000?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/derblub.com)
@@ -23,6 +23,8 @@ I build solid, maintainable interfaces with a strong eye for design and advise o
 ---
 
 ### Open source
+
+**[changereel](https://github.com/derblub/changereel)**: finds what a pull request changed on the pages of a site and shows it as a before and after video. Claude can add one sentence to each change. Runs as a GitHub Action and on the command line, which also comments on GitLab merge requests.
 
 **[django-upgrade-report](https://github.com/derblub/django-upgrade-report)**: which of your dependencies block a Django upgrade, and in which order to upgrade them. It reads your lockfile, asks PyPI what every Django package declares and prints the plan. Also runs in CI as a GitHub Action.
 
@@ -37,6 +39,7 @@ uvx django-upgrade-report
 Contributions to other projects:
 
 - [nuxt/ui #7151](https://github.com/nuxt/ui/pull/7151): screen readers now get the pagination labels in the user's language (merged).
+- [google-keyword-planner-mcp #29](https://github.com/ncosentino/google-keyword-planner-mcp/pull/29), [#30](https://github.com/ncosentino/google-keyword-planner-mcp/pull/30), [#31](https://github.com/ncosentino/google-keyword-planner-mcp/pull/31): an MCP server that gives AI agents Google Keyword Planner data. Limited and enriched keyword ideas, ISO codes for targeting, forecasts requested in parallel (merged).
 
 Most of my client work lives in private repositories on my own GitLab, so the contribution graph here shows only the public part.
 
@@ -47,16 +50,16 @@ Most of my client work lives in private repositories on my own GitLab, so the co
 <table>
   <tr>
     <td width="33%" valign="top">
+      <h4><a href="https://pushingpixels.at/creates/ki-beratung">AI consulting</a></h4>
+      <p>An AI feasibility check from €1,900, with the result in one week: vendors compared on your own examples, a written assessment that is yours, then a prototype if it pays off.</p>
+    </td>
+    <td width="33%" valign="top">
       <h4><a href="https://pushingpixels.at/creates/web-apps">Web applications</a></h4>
       <p>Custom web applications with Django and Nuxt: architecture, APIs, testing and deployment.</p>
     </td>
     <td width="33%" valign="top">
       <h4><a href="https://pushingpixels.at/creates/devops-and-infra">DevOps and infrastructure</a></h4>
       <p>CI/CD pipelines, containers and cloud infrastructure that make deployments repeatable and outages visible.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4><a href="https://pushingpixels.at/creates/wordpress">WordPress</a></h4>
-      <p>Custom Gutenberg builds and headless setups that marketing teams can run themselves.</p>
     </td>
   </tr>
   <tr>
@@ -69,8 +72,8 @@ Most of my client work lives in private repositories on my own GitLab, so the co
       <p>Fixed price: WCAG 2.2 AA with automated checks, keyboard and screen reader testing, and a prioritised list of fixes.</p>
     </td>
     <td width="33%" valign="top">
-      <h4><a href="https://pushingpixels.at/creates/digitalisation-funding">Digitalisation funding</a></h4>
-      <p>The technical plan for Vienna's digitalisation funding.</p>
+      <h4><a href="https://pushingpixels.at/creates/wordpress">WordPress</a></h4>
+      <p>Custom Gutenberg builds and headless setups that marketing teams can run themselves.</p>
     </td>
   </tr>
 </table>
