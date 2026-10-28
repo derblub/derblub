@@ -42,6 +42,8 @@ uvx django-upgrade-report
 npx axe-routes --url http://localhost:3000 --json report.json
 ```
 
+**[awesome-claude-usage](https://github.com/derblub/awesome-claude-usage)**: shows in the AwesomeWM bar how much of the Claude Code limits for five hours and seven days is used, with a desktop notification as it gets close to one.
+
 **[barrierefreiheitserklaerung-at](https://github.com/derblub/barrierefreiheitserklaerung-at)**: a template (in German) for the accessibility information the Austrian Barrierefreiheitsgesetz requires from online shops and booking flows, with a filled-in example.
 
 Contributions to other projects:
