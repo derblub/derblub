@@ -39,6 +39,8 @@ uvx django-upgrade-report
 Contributions to other projects:
 
 - [nuxt/ui #7151](https://github.com/nuxt/ui/pull/7151): screen readers now get the pagination labels in the user's language (merged).
+- [eslint-plugin-vuejs-accessibility #1489](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility/pull/1489): `anchor-has-content` no longer reports links that are hidden from screen readers with `aria-hidden` (merged).
+- [django-auditlog #854](https://github.com/django-commons/django-auditlog/pull/854), [django-constance #678](https://github.com/django-commons/django-constance/pull/678): both are now tested on Django 6.1 and declare it, django-constance on 6.0 as well (merged).
 - [google-keyword-planner-mcp #29](https://github.com/ncosentino/google-keyword-planner-mcp/pull/29), [#30](https://github.com/ncosentino/google-keyword-planner-mcp/pull/30), [#31](https://github.com/ncosentino/google-keyword-planner-mcp/pull/31): an MCP server that gives AI agents Google Keyword Planner data. Limited and enriched keyword ideas, ISO codes for targeting, forecasts requested in parallel (merged).
 
 Most of my client work lives in private repositories on my own GitLab, so the contribution graph here shows only the public part.
