@@ -26,6 +26,10 @@ Consulting and development stay with one person, so nothing gets lost in a hando
 
 **[changereel](https://github.com/derblub/changereel)**: finds what a pull request changed on the pages of a site and shows it as a before and after video. Claude can add one sentence to each change. Runs as a GitHub Action and on the command line, which also comments on GitLab merge requests.
 
+```console
+npx changereel --base main --build "npm ci && npm run build" --serve "npm run preview -- --port {port}"
+```
+
 **[django-upgrade-report](https://github.com/derblub/django-upgrade-report)**: which of your dependencies block a Django upgrade, and in which order to upgrade them. It reads your lockfile, asks PyPI what every Django package declares and prints the plan. Also runs in CI as a GitHub Action.
 
 ```console
@@ -33,6 +37,10 @@ uvx django-upgrade-report
 ```
 
 **[axe-routes](https://github.com/derblub/axe-routes)**: checks every route of a site with axe-core, from the sitemap, at desktop and phone size. Runs as a GitHub Action or from the command line and fails the build on a WCAG violation.
+
+```console
+npx axe-routes --url http://localhost:3000 --json report.json
+```
 
 **[barrierefreiheitserklaerung-at](https://github.com/derblub/barrierefreiheitserklaerung-at)**: a template (in German) for the accessibility information the Austrian Barrierefreiheitsgesetz requires from online shops and booking flows, with a filled-in example.
 
