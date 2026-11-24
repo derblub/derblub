@@ -24,16 +24,16 @@ Consulting and development stay with one person, so nothing gets lost in a hando
 
 ### Open source
 
+**[django-upgrade-report](https://github.com/derblub/django-upgrade-report)**: which of your dependencies block a Django upgrade, and in which order to upgrade them. It reads your lockfile, asks PyPI what every Django package declares and prints the plan. Also runs in CI as a GitHub Action. Every week it publishes [how ready the 300 most downloaded Django packages are](https://derblub.github.io/django-upgrade-report/) for each Django version.
+
+```console
+uvx django-upgrade-report
+```
+
 **[changereel](https://github.com/derblub/changereel)**: finds what a pull request changed on the pages of a site and shows it as a before and after video. Claude can add one sentence to each change. Runs as a GitHub Action and on the command line, which also comments on GitLab merge requests.
 
 ```console
 npx changereel --base main --build "npm ci && npm run build" --serve "npm run preview -- --port {port}"
-```
-
-**[django-upgrade-report](https://github.com/derblub/django-upgrade-report)**: which of your dependencies block a Django upgrade, and in which order to upgrade them. It reads your lockfile, asks PyPI what every Django package declares and prints the plan. Also runs in CI as a GitHub Action.
-
-```console
-uvx django-upgrade-report
 ```
 
 **[axe-routes](https://github.com/derblub/axe-routes)**: checks every route of a site with axe-core, from the sitemap, at desktop and phone size. Runs as a GitHub Action or from the command line and fails the build on a WCAG violation.
@@ -50,7 +50,7 @@ Contributions to other projects:
 
 - [nuxt/ui #7151](https://github.com/nuxt/ui/pull/7151): screen readers now get the pagination labels in the user's language (merged).
 - [eslint-plugin-vuejs-accessibility #1489](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility/pull/1489): `anchor-has-content` no longer reports links that are hidden from screen readers with `aria-hidden` (merged).
-- [django-auditlog #854](https://github.com/django-commons/django-auditlog/pull/854), [django-constance #678](https://github.com/django-commons/django-constance/pull/678): both are now tested on Django 6.1 and declare it, django-constance on 6.0 as well (merged).
+- [django-auditlog #854](https://github.com/django-commons/django-auditlog/pull/854), [django-constance #678](https://github.com/django-commons/django-constance/pull/678), [django-rest-knox #403](https://github.com/django-commons/django-rest-knox/pull/403), [django-simple-menu #166](https://github.com/django-commons/django-simple-menu/pull/166): four django-commons packages are now tested on Django 6.1 and declare it, django-constance on 6.0 as well, django-simple-menu on 5.2 and 6.0 (merged).
 - [google-keyword-planner-mcp #29](https://github.com/ncosentino/google-keyword-planner-mcp/pull/29), [#30](https://github.com/ncosentino/google-keyword-planner-mcp/pull/30), [#31](https://github.com/ncosentino/google-keyword-planner-mcp/pull/31): an MCP server that gives AI agents Google Keyword Planner data. Limited and enriched keyword ideas, ISO codes for targeting, forecasts requested in parallel (merged).
 
 Most of my client work lives in private repositories on my own GitLab, so the contribution graph here shows only the public part.
@@ -63,7 +63,7 @@ Most of my client work lives in private repositories on my own GitLab, so the co
   <tr>
     <td width="33%" valign="top">
       <h4><a href="https://pushingpixels.at/creates/ki-beratung">AI consulting</a></h4>
-      <p>An AI feasibility check from €1,900, with the result in one week: vendors compared on your own examples, a written assessment that is yours, then a prototype if it pays off.</p>
+      <p>An AI feasibility check from €1,900, with the result in one week: vendors compared on your own examples, a written assessment that is yours, then a prototype if it pays off. After that I build the <a href="https://pushingpixels.at/creates/ki-automatisierung">automation</a> as custom software and keep it running.</p>
     </td>
     <td width="33%" valign="top">
       <h4><a href="https://pushingpixels.at/creates/web-apps">Web applications</a></h4>
@@ -90,6 +90,8 @@ Most of my client work lives in private repositories on my own GitLab, so the co
   </tr>
 </table>
 
+Vienna's [digitalisation funding](https://pushingpixels.at/creates/digitalisation-funding) covers up to 50 % of the recognised costs, applications close on 31 December 2026. I write the technical part of the digitalisation plan and a quote with a cost breakdown.
+
 ---
 
 ### Case studies
@@ -100,7 +102,7 @@ Most of my client work lives in private repositories on my own GitLab, so the co
 - [Automated property exposés](https://pushingpixels.at/portfolio/pdf-generation): a 45-minute InDesign job per listing became a three-second generator.
 - [Three payment gateways, one checkout](https://pushingpixels.at/portfolio/payment-orchestration): synchronous, redirect and webhook flows behind a single pipeline.
 
-Articles: [Which packages block my Django upgrade?](https://pushingpixels.at/articles/django-upgrade-dependencies) · [Django 4.2 is end of life: what now?](https://pushingpixels.at/articles/django-4-2-end-of-life)
+Articles: [Build an AI agent: do it yourself or have it built?](https://pushingpixels.at/articles/ki-agent-erstellen) · [Upgrading Django 3.2 to 5.2: skip the 4.2 LTS?](https://pushingpixels.at/articles/django-upgrade-skip-lts) · [Which packages block my Django upgrade?](https://pushingpixels.at/articles/django-upgrade-dependencies) · [Django 4.2 is end of life: what now?](https://pushingpixels.at/articles/django-4-2-end-of-life)
 
 ---
 
